@@ -15,7 +15,7 @@
     
     <div class="pesos_ch">
         <h2>PESOS CLP</h2>
-        <input  class="input_pesos" placeholder="Ingrese el monto en CLP " type="number" name="" id="pesos_CLP">
+        <input class="input_pesos" placeholder="Ingrese el monto en CLP " type="number" name="" id="pesos_CLP">
     </div>
     
     <div class="tipos_moneda" id="tipos_moneda">
@@ -32,7 +32,13 @@
     </div>
  </div>
 
+ <!-- CONTENEDOR DEL GRÁFICO -->
+ <div class="contenedor_grafico">
+    <canvas id="graficoMoneda"></canvas>
+ </div>
 
-<script src="./assets/js/script.js"></script>
+ <!-- LIBRERÍA CHART.JS -->
+ <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ <script src="./assets/js/script.js"></script>
 </body>
 </html>

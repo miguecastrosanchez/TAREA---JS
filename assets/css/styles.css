@@ -16,8 +16,6 @@ h1{
 }
 
 .contenedor_principal{
-
-    
     width: 400px;
     height: 300px;
     border: 3px solid #000000;
@@ -26,30 +24,24 @@ h1{
     flex-direction: column;
     gap: 10px ;
     align-items: center;
-    
-    
 }
 
 .pesos_ch{
-
     margin-top: 20px;
     text-align: center;
 }
 
 .input_pesos{
-
     width: 200px;
     padding: 10px;
 }
 
 .Selec_moneda{
-
     width: 200px;
     padding: 10px;
 }
 
 .btn_buscar {
-
     width: 200px;
     padding: 10px;
     background-color: #db7ec2;
@@ -61,4 +53,19 @@ h1{
     flex-direction: column;
     gap: 10px ;
     align-items: center;
+}
+
+/* NUEVO: ESTILOS DEL GRÁFICO */
+.contenedor_grafico{
+    width: 700px;
+    max-width: 90%;
+    margin-top: 25px;
+    padding: 20px;
+    border: 2px solid #000000;
+    background-color: white;
+}
+
+#graficoMoneda{
+    width: 100% !important;
+    height: 350px !important;
 }
